@@ -27,5 +27,27 @@ public class Vehiculo {
                 " Disponible: " + this.disponible;
     }
 
+    public String getMatricula() {
+        return matricula;
+    }
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public double getTarifa() {
+        return tarifa;
+    }
+
+    public boolean isDisponible() {
+        return disponible;
+    }
 }
